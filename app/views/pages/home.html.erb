@@ -81,15 +81,33 @@
 <div class="my-5">
   <div class="p-5 text-center bg-body-tertiary">
     <div class="container py-5">
-      <h1 class="text-body-emphasis">"I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof."
-      </h1>
-      <%= image_tag 'dog-img.jpg', class: 'rounded-circle' %>
+      <h2 class="text-body-emphasis">"I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof."
+      </h2>
+      <%= image_tag 'dog-img.jpg', class: 'profile-img mt-5 mt-b' %>
       <p class="col-lg-8 mx-auto lead">
         Pebbles, New York
       </p>
     </div>
+    <div class="container">
+      <div class="row mb-5">
+        <div class="col-lg-3 col-md-3 col-sm-6">
+          <%= image_tag 'mashable.png', alt: 'Mashable Logo', class: "img-fluid custom-logo" %>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-6">
+          <%= image_tag 'tnw.png', alt: 'TNW Logo', class: "img-fluid custom-logo" %>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-6">
+          <%= image_tag 'techcrunch.png', alt: 'TechCrunch Logo', class: "img-fluid custom-logo" %>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-6">
+          <%= image_tag 'bizinsider.png', alt: 'Business Insider Logo', class: "img-fluid custom-logo" %>
+        </div>
+      </div>
+    </div>
+
   </div>
 </div>
+
 
 <div class="container py-3">
   <main>
@@ -162,82 +180,84 @@
         <tbody>
           <tr>
             <th scope="row" class="text-start">Public</th>
-            <td><svg class="bi" width="24" height="24"><use xlink:href="#check"></use></svg></td>
-            <td><svg class="bi" width="24" height="24"><use xlink:href="#check"></use></svg></td>
-            <td><svg class="bi" width="24" height="24"><use xlink:href="#check"></use></svg></td>
+            <td>✅</td>
+            <td>✅</td>
+            <td>✅</td>
           </tr>
           <tr>
             <th scope="row" class="text-start">Private</th>
             <td></td>
-            <td><svg class="bi" width="24" height="24"><use xlink:href="#check"></use></svg></td>
-            <td><svg class="bi" width="24" height="24"><use xlink:href="#check"></use></svg></td>
+            <td>✅</td>
+            <td>✅</td>
           </tr>
         </tbody>
 
         <tbody>
           <tr>
             <th scope="row" class="text-start">Permissions</th>
-            <td><svg class="bi" width="24" height="24"><use xlink:href="#check"></use></svg></td>
-            <td><svg class="bi" width="24" height="24"><use xlink:href="#check"></use></svg></td>
-            <td><svg class="bi" width="24" height="24"><use xlink:href="#check"></use></svg></td>
+            <td>✅</td>
+            <td>✅</td>
+            <td>✅</td>
           </tr>
           <tr>
             <th scope="row" class="text-start">Sharing</th>
             <td></td>
-            <td><svg class="bi" width="24" height="24"><use xlink:href="#check"></use></svg></td>
-            <td><svg class="bi" width="24" height="24"><use xlink:href="#check"></use></svg></td>
+            <td>✅</td>
+            <td>✅</td>
           </tr>
           <tr>
             <th scope="row" class="text-start">Unlimited members</th>
             <td></td>
-            <td><svg class="bi" width="24" height="24"><use xlink:href="#check"></use></svg></td>
-            <td><svg class="bi" width="24" height="24"><use xlink:href="#check"></use></svg></td>
+            <td></td>
+            <td>✅</td>
           </tr>
           <tr>
             <th scope="row" class="text-start">Extra security</th>
             <td></td>
             <td></td>
-            <td><svg class="bi" width="24" height="24"><use xlink:href="#check"></use></svg></td>
+            <td>✅</td>
           </tr>
         </tbody>
       </table>
     </div>
   </main>
+
 </div>
   <footer class="gradient-background pt-4 my-md-5 pt-md-5 border-top">
-    <div class="row">
-      <div class="col-12 col-md">
-        <img class="mb-2" src="/docs/5.3/assets/brand/bootstrap-logo.svg" alt="" width="24" height="19">
-        <small class="d-block mb-3 text-body-secondary">© 2017–2024</small>
-      </div>
-      <div class="col-6 col-md">
-        <h5>Features</h5>
-        <ul class="list-unstyled text-small">
-          <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Cool stuff</a></li>
-          <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Random feature</a></li>
-          <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Team feature</a></li>
-          <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Stuff for developers</a></li>
-          <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Another one</a></li>
-          <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Last time</a></li>
-        </ul>
-      </div>
-      <div class="col-6 col-md">
-        <h5>Resources</h5>
-        <ul class="list-unstyled text-small">
-          <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Resource</a></li>
-          <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Resource name</a></li>
-          <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Another resource</a></li>
-          <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Final resource</a></li>
-        </ul>
-      </div>
-      <div class="col-6 col-md">
-        <h5>About</h5>
-        <ul class="list-unstyled text-small">
-          <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Team</a></li>
-          <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Locations</a></li>
-          <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Privacy</a></li>
-          <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Terms</a></li>
-        </ul>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md">
+          <small class="d-block mb-3 text-body-secondary">© 2017–2024</small>
+        </div>
+        <div class="col-6 col-md">
+          <h5>Features</h5>
+          <ul class="list-unstyled text-small">
+            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Cool stuff</a></li>
+            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Random feature</a></li>
+            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Team feature</a></li>
+            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Stuff for developers</a></li>
+            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Another one</a></li>
+            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Last time</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <h5>Resources</h5>
+          <ul class="list-unstyled text-small">
+            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Resource</a></li>
+            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Resource name</a></li>
+            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Another resource</a></li>
+            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Final resource</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <h5>About</h5>
+          <ul class="list-unstyled text-small">
+            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Team</a></li>
+            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Locations</a></li>
+            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Privacy</a></li>
+            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Terms</a></li>
+          </ul>
+        </div>
       </div>
     </div>
   </footer>
